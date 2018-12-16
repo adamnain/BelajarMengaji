@@ -4,7 +4,7 @@
     android:id="@+id/activity_tanwin"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorBackground"
+    android:background="@drawable/bg4"
     tools:context="com.adamnain.belajarmengaji.TanwinActivity">
     <HorizontalScrollView
         android:layout_width="wrap_content"

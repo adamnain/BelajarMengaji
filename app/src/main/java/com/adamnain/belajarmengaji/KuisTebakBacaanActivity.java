@@ -44,5 +44,22 @@ ImageButton pindah;
 
             }
         });
+
+        pindah = (ImageButton) findViewById(R.id.buttonAbout);
+        pindah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),AboutActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        pindah = (ImageButton) findViewById(R.id.buttonExit);
+        pindah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
     }
 }

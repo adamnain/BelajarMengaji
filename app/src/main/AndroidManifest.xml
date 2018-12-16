@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
         <activity
-            android:name="com.adamnain.belajarmengaji.SplashActivity"
+            android:name=".SplashActivity"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,58 +18,58 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.adamnain.belajarmengaji.BelajarActivity"
+            android:name=".BelajarActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="com.adamnain.belajarmengaji.HijaiyahActivity"
+            android:name=".HijaiyahActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="com.adamnain.belajarmengaji.HarokatActivity"
+            android:name=".HarokatActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="com.adamnain.belajarmengaji.HarokatFathahActivity"
+            android:name=".HarokatFathahActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="com.adamnain.belajarmengaji.HarokatKasrohActivity"
+            android:name=".HarokatKasrohActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="com.adamnain.belajarmengaji.HarokatDhomahActivity"
+            android:name=".HarokatDhomahActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="com.adamnain.belajarmengaji.TanwinActivity"
+            android:name=".TanwinActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="com.adamnain.belajarmengaji.TanwinFathahActivity"
+            android:name=".TanwinFathahActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="com.adamnain.belajarmengaji.TanwinKasrohActivity"
+            android:name=".TanwinKasrohActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="com.adamnain.belajarmengaji.TanwinDhomahActivity"
+            android:name=".TanwinDhomahActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="com.adamnain.belajarmengaji.KuisActivity"
+            android:name=".KuisActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="com.adamnain.belajarmengaji.KuisTebakHijaiyahActivity"
+            android:name=".KuisTebakHijaiyahActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="com.adamnain.belajarmengaji.KuisTebakHarokatActivity"
+            android:name=".KuisTebakHarokatActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="com.adamnain.belajarmengaji.KuisTebakTanwinActivity"
+            android:name=".KuisTebakTanwinActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="com.adamnain.belajarmengaji.KuisTebakBacaanActivity"
+            android:name=".KuisTebakBacaanActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="com.adamnain.belajarmengaji.KuisTebakBacaanHijaiyahActivity"
+            android:name=".KuisTebakBacaanHijaiyahActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="com.adamnain.belajarmengaji.KuisTebakBacaanHarokatActivity"
+            android:name=".KuisTebakBacaanHarokatActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="com.adamnain.belajarmengaji.KuisTebakBacaanTanwinActivity"
+            android:name=".KuisTebakBacaanTanwinActivity"
             android:screenOrientation="landscape" />
         <!--
  ATTENTION: This was auto-generated to add Google Play services to your project for
@@ -79,7 +79,10 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name="com.adamnain.belajarmengaji.MainActivity" android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".AboutActivity"></activity>
     </application>
 
 </manifest>

@@ -48,5 +48,26 @@ public class BelajarActivity extends AppCompatActivity {
                 //  mp.stop();
             }
         });
+
+        pindah = (ImageButton) findViewById(R.id.buttonAbout);
+        pindah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //suaraButton.start();
+                Intent intent = new Intent(getApplicationContext(),AboutActivity.class);
+                startActivity(intent);
+                //mp.stop();
+            }
+        });
+
+        pindah = (ImageButton) findViewById(R.id.buttonExit);
+        pindah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //suaraButton.start();
+                finish();
+                //.stop();
+            }
+        });
     }
 }

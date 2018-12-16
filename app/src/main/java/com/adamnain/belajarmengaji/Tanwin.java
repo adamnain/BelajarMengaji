@@ -7,6 +7,7 @@ import java.util.Random;
  */
 
 public class Tanwin{
+
     private int listhuruf[] = {
             R.drawable.pop_fatahtain_ban,
             R.drawable.pop_fatahtain_dan,
@@ -77,7 +78,14 @@ public class Tanwin{
     }
 
     public int getrandomhuruf(){
-        int rnd = new Random().nextInt(listhuruf.length);
+        //int rnd = new Random().nextInt(listhuruf.length);
+        //return rnd;
+        int z = new Random().nextInt(listhuruf.length);
+        int a = 4;
+        int c = 7;
+        int m = 28;
+        int rnd = (a*z+c)%m;
+
         return rnd;
     }
 
@@ -95,5 +103,6 @@ public class Tanwin{
     public int getjumlah2(){
         return listhuruf2.length;
     }
+
 }
 

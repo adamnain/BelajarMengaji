@@ -15,6 +15,7 @@ public class KuisTebakTanwinActivity extends AppCompatActivity {
     ImageButton pilih;
     ImageButton jw1,jw2,jw3;
     ImageView soal;
+    //s = soal, j = jawaban
     int s,s1,j1,j2,j3;
     int skor=0;
     Tanwin tanwin = new Tanwin();
