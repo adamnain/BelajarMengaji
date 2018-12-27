@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg4"
-    tools:context="com.adamnain.belajarmengaji.MainActivity">
+    tools:context="com.adamnain.belajarmengaji.activity.MainActivity">
 
     <ImageButton
         android:layout_width="500dp"

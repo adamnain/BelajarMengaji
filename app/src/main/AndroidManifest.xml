@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
         <activity
-            android:name=".SplashActivity"
+            android:name=".activity.SplashActivity"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,58 +18,58 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".BelajarActivity"
+            android:name=".activity.BelajarActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".HijaiyahActivity"
+            android:name=".activity.HijaiyahActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".HarokatActivity"
+            android:name=".activity.HarokatActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".HarokatFathahActivity"
+            android:name=".activity.HarokatFathahActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".HarokatKasrohActivity"
+            android:name=".activity.HarokatKasrohActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".HarokatDhomahActivity"
+            android:name=".activity.HarokatDhomahActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".TanwinActivity"
+            android:name=".activity.TanwinActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".TanwinFathahActivity"
+            android:name=".activity.TanwinFathahActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".TanwinKasrohActivity"
+            android:name=".activity.TanwinKasrohActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".TanwinDhomahActivity"
+            android:name=".activity.TanwinDhomahActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".KuisActivity"
+            android:name=".activity.KuisActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".KuisTebakHijaiyahActivity"
+            android:name=".activity.KuisTebakHijaiyahActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".KuisTebakHarokatActivity"
+            android:name=".activity.KuisTebakHarokatActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".KuisTebakTanwinActivity"
+            android:name=".activity.KuisTebakTanwinActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".KuisTebakBacaanActivity"
+            android:name=".activity.KuisTebakBacaanActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".KuisTebakBacaanHijaiyahActivity"
+            android:name=".activity.KuisTebakBacaanHijaiyahActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".KuisTebakBacaanHarokatActivity"
+            android:name=".activity.KuisTebakBacaanHarokatActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".KuisTebakBacaanTanwinActivity"
+            android:name=".activity.KuisTebakBacaanTanwinActivity"
             android:screenOrientation="landscape" />
         <!--
  ATTENTION: This was auto-generated to add Google Play services to your project for
@@ -80,9 +80,9 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:screenOrientation="landscape" />
-        <activity android:name=".AboutActivity"></activity>
+        <activity android:name=".activity.AboutActivity"></activity>
     </application>
 
 </manifest>

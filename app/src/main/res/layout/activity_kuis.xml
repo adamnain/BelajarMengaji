@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg4"
-    tools:context="com.adamnain.belajarmengaji.KuisActivity">
+    tools:context="com.adamnain.belajarmengaji.activity.KuisActivity">
 
 
     <HorizontalScrollView

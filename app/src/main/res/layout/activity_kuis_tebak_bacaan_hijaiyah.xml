@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg4"
-    tools:context="com.adamnain.belajarmengaji.KuisTebakBacaanHijaiyahActivity">
+    tools:context="com.adamnain.belajarmengaji.activity.KuisTebakBacaanHijaiyahActivity">
 
     <ImageButton
         android:id="@+id/soal"
